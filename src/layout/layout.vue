@@ -3,8 +3,9 @@
         <el-container class="app-container-0">
           <el-header>
               <div class="el-row" gutter="24">
-                  <div class="header-title" v-show="showLeftMenu">
-                       后台管理系统
+                  <div class="header-title">
+                      <img src="./../assets/logo.png" class="logo-img" />
+                      <span  v-show="showLeftMenu">后台管理系统</span>
                   </div>
                   <div class="toggle-left-menu-icon" @click="toggleLeftMenu">
                       <i class=" el-icon-menu" title="收缩左侧菜单"></i>
@@ -50,7 +51,6 @@
         data() {
             return {
                 showLeftMenu: true,
-                // isFullScreen: false
             }
 
         },
@@ -59,9 +59,6 @@
                 this.showLeftMenu = !this.showLeftMenu;
             },
             screen: function () {
-                // if(!screenfull.enabled) {
-                //
-                // }
                 screenfull.toggle();
             }
         }

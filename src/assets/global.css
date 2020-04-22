@@ -45,6 +45,8 @@ header.el-header {
     float: left;
     font-size: 18px;
     font-weight: bold;
+    display: flex;
+    justify-content: center;
 }
 .pull-right {
     float: right;
