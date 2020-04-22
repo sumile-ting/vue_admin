@@ -1,0 +1,95 @@
+html, body, #app {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    overflow: hidden;
+}
+
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif, Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,微软雅黑;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+
+header.el-header {
+    padding: 0px;
+    background-color: #409EFF;
+    color: #fff;
+}
+.el-aside {
+    background-color: #eef1f6;
+}
+
+.app-container-0 {
+    height: 100vh;
+}
+
+.el-footer {
+    line-height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-title {
+    width: 230px;
+    height: 60px;
+    line-height: 60px;
+    background-color: #0079d9;
+    color: #fff;
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+}
+.pull-right {
+    float: right;
+}
+
+.user-info > .el-menu {
+    background-color: inherit;
+}
+.toggle-left-menu-icon {
+    float: left;
+    height: 60px;
+    line-height: 60px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.user-info > .el-menu > .el-menu-item,.user-info > .el-menu > .el-menu-item i {
+    color: #fff;
+}
+
+header .el-menu--horizontal .el-menu-item:not(.is-disabled):focus, header .el-menu--horizontal .el-menu-item:not(.is-disabled):hover {
+    background-color: #2A92FC;
+    color: #fff
+}
+
+.user-info>.el-menu--horizontal>.el-submenu .el-submenu__title {
+    color: #fff;
+}
+.user-info>.el-menu--horizontal>.el-submenu .el-submenu__title i {
+    color: #fff
+}
+.user-info> .el-menu--horizontal> .el-submenu:hover .el-submenu__title {
+    background-color: #2A92FC;
+    color: #fff
+}
+
+ .el-dropdown-menu__item:not(.is-disabled):hover {
+    background-color: #e6f3fe;
+    color: #339ef4;
+}
+.userInfo-dropdown-menu> ul.el-menu{
+    min-width: auto;
+}
+
+.userInfo-dropdown-menu.el-menu--horizontal .el-menu-item:not(.is-disabled):hover {
+    background-color: #e6f3fe;
+    color: #339ef4;
+}
