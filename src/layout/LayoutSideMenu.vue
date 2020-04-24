@@ -51,9 +51,6 @@
         methods: {
             setActiveMenu: function () {
                 this.activeMenu = this.$route.path;
-                if(this.activeMenu == '/') {
-                    this.activeMenu = this.asideNames[0].url;
-                }
             }
         }
     }

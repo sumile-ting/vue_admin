@@ -87,7 +87,7 @@
         },
         beforeMount() {
             let path = this.$route.path.split('/')[1];
-            this.mainPath = path || 'guide';
+            this.mainPath = path;
         }
     }
 </script>

@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import HelloWorld from "../components/HelloWorld";
+// import HelloWorld from "../components/HelloWorld";
 import GuideRouter from "./GuideRouter";
 import ComponentRouter from "./ComponentRouter";
 import AboutRouter from './AboutRouter';
@@ -16,7 +16,7 @@ const routes = [
       return {path: path};
     },
   },
-  { path: '/hello', component: HelloWorld },
+  // { path: '/hello', component: HelloWorld },
   GuideRouter,
   ComponentRouter,
   AboutRouter
