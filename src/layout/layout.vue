@@ -111,4 +111,8 @@
     .header-menu .el-menu-item:hover, .header-menu .el-menu-item.is-active {
         background-color: #0079d9 !important;
     }
+
+    main.el-main {
+        padding: 0px;
+    }
 </style>

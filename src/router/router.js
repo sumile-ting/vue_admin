@@ -1,7 +1,9 @@
-import Vue from 'vue'
+import Vue from 'vue';
 import VueRouter from 'vue-router';
 import HelloWorld from "../components/HelloWorld";
 import GuideRouter from "./GuideRouter";
+import ComponentRouter from "./ComponentRouter";
+import AboutRouter from './AboutRouter';
 
 Vue.use(VueRouter);
 
@@ -15,7 +17,9 @@ const routes = [
     },
   },
   { path: '/hello', component: HelloWorld },
-  GuideRouter
+  GuideRouter,
+  ComponentRouter,
+  AboutRouter
 ]
 
 const router = new VueRouter({

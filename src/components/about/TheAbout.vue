@@ -1,13 +1,12 @@
 <template>
     <div>
-        The Froms
+        The About
     </div>
-
 </template>
 
 <script>
     export default {
-        name: "TheForms"
+        name: "TheAbout"
     }
 </script>
 

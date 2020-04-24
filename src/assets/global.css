@@ -95,3 +95,10 @@ header .el-menu--horizontal .el-menu-item:not(.is-disabled):focus, header .el-me
     background-color: #e6f3fe;
     color: #339ef4;
 }
+
+div.el-breadcrumb {
+    line-height: 30px;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.12), 0 0 3px 0 rgba(0,0,0,.04);
+    /* background-color: #fff; */
+    padding: 0px 10px;
+}

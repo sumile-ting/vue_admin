@@ -1,13 +1,12 @@
 <template>
     <div>
-        The Datas
+        The Checkboxes
     </div>
-
 </template>
 
 <script>
     export default {
-        name: "TheDatas"
+        name: "TheCheckboxes"
     }
 </script>
 

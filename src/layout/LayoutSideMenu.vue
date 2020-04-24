@@ -43,20 +43,27 @@
         },
         computed: {
             asideNames: function () {
-                return this.leftMenus.find(item => item.name == this.mainPath).menus;
+                let menus = this.leftMenus.find(item => item.name == this.mainPath).menus;
+                this.setActiveMenu();
+                return menus;
             }
         },
-        mounted() {
-            this.activeMenu = this.$route.path;
-            if(this.activeMenu == '/') {
-                this.activeMenu = this.asideNames[0].url;
+        methods: {
+            setActiveMenu: function () {
+                this.activeMenu = this.$route.path;
+                if(this.activeMenu == '/') {
+                    this.activeMenu = this.asideNames[0].url;
+                }
             }
         }
     }
 </script>
 
 <style scoped>
-.el-menu-vertical-demo {
-    text-align: left;
-}
+    .el-menu-vertical-demo {
+        text-align: left;
+    }
+    .el-menu {
+        background-color: inherit;
+    }
 </style>
