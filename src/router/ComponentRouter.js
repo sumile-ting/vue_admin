@@ -1,11 +1,11 @@
-import TheComponent from './../components/component';
+import TheComponent from '../views/component/index';
 
-import TheCheckboxes from "../components/component/form/TheCheckboxes";
-import TheInput from "../components/component/form/TheInput";
-import TheRadios from "../components/component/form/TheRadios";
+import TheCheckboxes from "../views/component/form/TheCheckboxes";
+import TheInput from "../views/component/form/TheInput";
+import TheRadios from "../views/component/form/TheRadios";
 
-import ThePaginations from "../components/component/data/ThePaginations";
-import TheTables from "../components/component/data/TheTables";
+import ThePaginations from "../views/component/data/ThePaginations";
+import TheTables from "../views/component/data/TheTables";
 
 const componentRouter = {
     path: "/component",

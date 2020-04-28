@@ -1,6 +1,6 @@
-import Guide from '../components/guide';
-import InstallHelper from "../components/guide/InstallHelper";
-import UsageGuide from "../components/guide/UsageGuide";
+import Guide from '../views/guide';
+import InstallHelper from "../views/guide/InstallHelper";
+import UsageGuide from "../views/guide/UsageGuide";
 
 const GuideRouter = {
     path: "/guide",

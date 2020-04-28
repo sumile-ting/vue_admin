@@ -1,5 +1,5 @@
-import About from './../components/about';
-import TheAbout from "../components/about/TheAbout";
+import About from './../views/about';
+import TheAbout from "../views/about/TheAbout";
 
 const aboutRouter = {
     path: '/about',
